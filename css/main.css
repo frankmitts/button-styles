@@ -1,6 +1,11 @@
 html {
   box-sizing: border-box;
   font: normal 100%/1.5 sans-serif;
+  border-radius: 8px;
+  padding: .4em .75em .3em;
+  display: inline-block;
+  border: 3px solid #333;
+  text-decoration: none;
 }
 
 *, *::before, *::after {
@@ -27,65 +32,37 @@ div {
 }
 
 .btn-subtle {
-  display: inline-block;
   background-color: #ccc;
-  border:3px;
-  border-radius: 8px;
-  padding: .4em .75em .3em;
   color: #fff;
-  text-decoration: none;
 }
 
 .btn-ghost {
-  display: inline-block;
   border-color: #000;
-  border: 3px solid #333;
-  border-radius: 8px;
-  padding: .4em .75em .3em;
   color: #000;
-  text-decoration: none;
 }
 
 .btn-warning {
-  display: inline-block;
   background-color: #f33;
-  border:3px;
-  border-radius: 8px;
   color: #fff;
-  padding: .4em .75em .3em;
-  text-decoration: none;
 }
 
 .btn-primary {
-  display: inline-block;
   background-color: #333;
-  border:3px;
-  border-radius: 8px;
-  padding: .4em .75em .3em;
   color: #fff;
-  text-decoration: none;
 }
 
 .btn-subtle:hover {
-  border-radius: 8px;
-  padding: .4em .75em .3em;
   background-color: #666;
 }
 
 .btn-ghost:hover {
-  border-radius: 8px;
-  padding: .4em .75em .3em;
   background-color: #666;
 }
 
 .btn-warning:hover {
-  border-radius: 8px;
-  padding: .4em .75em .3em;
   background-color: #933;
 }
 
-.btn-primary:hover {
-  border-radius: 8px;
-  padding: .4em .75em .3em;
+.btn:hover {
   background-color: #000;
 }
